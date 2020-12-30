@@ -22,7 +22,7 @@ import numpy
 import pandas as pd
 import random
 from datetime import datetime
-from sklearn.gaussian_process import GaussianProcessRegressor as GP
+from sklearn.gaussian_process import GaussianProcessRegressor as GP   #sklearn version <= 0.19
 from sklearn.metrics import log_loss
 from scipy.optimize import minimize
 from scipy.stats import norm
